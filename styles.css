@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "leon";
+    src: url("./assets/font/Leon-Light-trial.ttf");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    letter-spacing: 5px;
+
+
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "leon";
+    background-color: rgb(7, 24, 37);
+
+
+}
+
+p {
+    letter-spacing: 5px;
+    color: rgb(51, 91, 103);
+
+}
+
+ul li {
+    color: rgb(51, 91, 103);
+    list-style: none;
+}
+
+h1,
+h2 {
+    color: rgb(106, 230, 138);
+}
+
+.bocny_panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(7, 24, 37);
+    width: 255px;
+    height: 100%;
+    z-index: 1;
+    border-right: 1px solid;
+    border-color: rgb(51, 91, 103);
+}
+
+.bocny_panel h2 {
+    text-align: center;
+    color: rgb(51, 91, 103);
+    margin-bottom: 80px;
+}
+
+.bocny_panel h2:hover {
+    color: rgb(106, 230, 138);
+}
+
+.bocny_panel ul li {
+    margin: 25px 0;
+}
+
+.bocny_panel ul li a {
+    color: rgb(51, 91, 103);
+    padding: 0 30px;
+    font-size: 26px;
+}
+
+.bocny_panel ul li a:hover {
+    color: rgb(106, 230, 138);
+}
+
+.hlavna_cast {
+    margin-left: 255px;
+    padding: 0 30px;
+}
+
+.hlavna_cast h2 {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 40px;
+
+}
+
+.hlavna_cast p {
+    font-size: 20px;
+}
+
+.logo {
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* tabulka formatovanie */
+
+table,
+th,
+td {
+    color: rgb(51, 91, 103);
+    ;
+}
+
+table {
+    font-size: 20px
+}
+
+th {
+    border: 1px solid;
+    padding: 8px;
+
+}
+
+td {
+    border: 1px solid;
+    padding: 8px;
+
+}
+
+
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.biely_telefon {
+    padding-top: 20px;
+}
+
+
+
+.gallery img {
+    border-radius: 20px;
+}
+
+.zvyraznenie {
+    color: rgb(106, 230, 138);
+
+}
+
+.dot1 {
+    margin-left: 5px;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 40px;
+}
+
+.dot2 {
+    margin-left: 5px;
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    border-top: 40px;
+}
+
+
+.price ul li {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.border {
+    border-radius: 15px;
+}
+
+.language {
+    float: right;
+    bottom: 100%;
+    align-items: flex-end;
+}
+
+footer {
+    bottom: 30px;
+    width: 100%;
+}
+
+.odsek {
+    margin-bottom: 5px;
+}
+
+form {
+    width: 100%;
+    border: 0;
+}
+
+h3 {
+    color: white
+}
+
+textarea {
+    background-color: rgb(7, 24, 37);
+    ;
+    color: white;
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 15px auto;
+    background-color: rgb(106, 230, 138);
+    border: none;
+    min-width: 350px;
+}
+
+input[type="submit"]:hover {
+
+    background-color: red;
+}
